@@ -1,0 +1,63 @@
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: #fff;
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px #0000001a;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #8a1095;
+  border: none;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+button:hover {
+  background-color: #d931d1;
+}
+
+@media screen and (width <= 768px) {
+  .container {
+    width: 95%;
+  }
+
+  .profile-pic {
+    width: 120px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+}
+
+.profile-pic {
+  border-radius: 0;
+  width: 200px;
+  height: 100px;
+}
+/*# sourceMappingURL=index.b2625c6b.css.map */
